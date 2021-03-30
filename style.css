@@ -719,6 +719,9 @@ footer span a:hover{
     }
 }
 @media (max-width: 500px) {
+    .contact .contact-content .info .sub-title1{
+    color: #e6f1ff;
+}
     .home .home-content .text-2{
         font-size: 50px;
     }
