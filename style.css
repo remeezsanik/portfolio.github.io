@@ -355,7 +355,7 @@ section{
 
 }
 .skills .skills-content .left p{
-    text-align: justify;
+    text-align: -webkit-auto;
 }
 .skills .skills-content .left .text{
     font-size: 25px;
@@ -392,22 +392,22 @@ section{
     background:crimson;
 } 
 .skills .skills-content .right .power::before{
-    width:75%;
-}
-.skills .skills-content .right .excel::before{
     width:90%;
 }
-.skills .skills-content .right .css::before{
+.skills .skills-content .right .excel::before{
     width:80%;
 }
+.skills .skills-content .right .css::before{
+    width:60%;
+}
 .skills .skills-content .right .js::before{
-    width:50%;
+    width:60%;
 }
 .skills .skills-content .right .java::before{
-    width:70%;
+    width:55%;
 }
 .skills .skills-content .right .mysql::before{
-    width:60%;
+    width:50%;
 }
 /* work styling */
 .work .title{
