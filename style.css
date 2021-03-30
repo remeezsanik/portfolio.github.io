@@ -118,7 +118,8 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
+    color: rgb(199, 11, 11);
+    font-weight: bolder;
     transition: all 0.3s ease;
 } 
 .navbar.sticky .logo a span{
@@ -131,7 +132,7 @@ section .title::after{
 .navbar .menu li a{
     display: block;
     color:inherit;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
@@ -159,6 +160,67 @@ section .title::after{
     /* color: #fff; */
     min-height: 500px;
     font-family: 'Ubuntu',sans-serif;
+}
+.home  .email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.home .email a{
+    margin: 40px auto;
+    padding: 10px;
+    writing-mode: vertical-rl; 
+    color: #e6f1ff;
+}
+/* .email ::after{
+    content:"";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color:#ccd6f6;
+} */
+.home .side-element{
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    color: var(--light-slate);
+}
+.home .side-element .social-media{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.social-media li a {
+    padding:10px;
+}
+.home .social-media a{
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    color: inherit;
+    position: relative;
+    transition: var(--transition);
+    cursor: pointer;
+}
+.home .social-media li{
+    margin-bottom: 20px;
+}
+.home .dj{
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    z-index:10;
+    left: auto;
+    right: 40px;
 }
 .home .max-width{
     margin: auto 0 auto 40px;
@@ -309,6 +371,7 @@ section{
     margin-bottom:5px;
     justify-content: space-between;
     align-items: center;
+    color: #fff;
 }
 .skills .skills-content .right span{
     font-weight: 500;
@@ -328,11 +391,14 @@ section{
     top:0;
     background:crimson;
 } 
-.skills .skills-content .right .html::before{
-    width:80%;
+.skills .skills-content .right .power::before{
+    width:75%;
+}
+.skills .skills-content .right .excel::before{
+    width:90%;
 }
 .skills .skills-content .right .css::before{
-    width:65%;
+    width:80%;
 }
 .skills .skills-content .right .js::before{
     width:50%;
@@ -342,6 +408,70 @@ section{
 }
 .skills .skills-content .right .mysql::before{
     width:60%;
+}
+/* work styling */
+.work .title{
+    color: #fff;
+}
+.work1{
+    padding: 14px;
+    margin-bottom: 20px;
+}
+.work1 h1{
+    font-size: 25px;
+    color: #9affe7d3;
+}
+.work1 h2{
+    color:#fff;
+    font-size: 25px;
+    margin-bottom: 1px;
+}
+.work1 h3{
+    color: #fff;
+    margin-bottom: 2px;
+}
+.work1 p{
+    padding: 2px;
+}
+.work2{
+    padding: 14px;
+    margin-bottom: 20px;
+}
+.work2 h1{
+    font-size: 25px;
+    color: #9affe7d3;
+}
+.work2 h2{
+    color:#fff;
+    font-size: 25px;
+    margin-bottom: 1px;
+}
+.work2 h3{
+    color: #fff;
+    margin-bottom: 2px;
+}
+.work2 p{
+    padding: 2px;
+}
+.work3{
+    padding: 14px;
+    margin-bottom: 20px;
+}
+.work3 h1{
+    font-size: 25px;
+    color: #9affe7d3;
+}
+.work3 h2{
+    color:#fff;
+    font-size: 25px;
+    margin-bottom: 1px;
+}
+.work3 h3{
+    color: #fff;
+    margin-bottom: 2px;
+}
+.work3 p{
+    padding: 2px;
 }
 /* contact section styling */
 .contact .title{
@@ -378,6 +508,10 @@ section{
 .contact .contact-content .row i{
     font-size: 25px;
     color: #9affe7d3;
+}
+.contact .contact-content .row i:hover{
+    font-size: 25px;
+    color: #09a8f1d3;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -460,6 +594,7 @@ section{
     padding:0.25rem 1.75rem;
     line-height: 3;
 }
+
 /* footer section begins */
 footer{
     background:#111;
@@ -474,7 +609,28 @@ footer span a {
 footer span a:hover{
     text-decoration: underline;
 }
-
+/* work style */
+.work-button{
+    background-color: inherit;
+    color:#fff;
+    text-decoration: none;
+    border: 0px;
+    border-radius: 0px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 0px 20px 2px;
+    border-left: 2px solid var(--lightest-navy);
+    text-align: left;
+   
+}
+.worklist p{
+   padding:5px;
+}
+.column1{
+    column-count: 1;
+}
 /* responsive media query */
 @media(max-width: 947px){
     .max-width{

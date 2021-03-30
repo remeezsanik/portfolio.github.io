@@ -27,3 +27,31 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 });
+function myFunction(){
+    var x= document.getElementById("eq");
+    if(x.style.display === "none"){
+        x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+// function setupTabs(){
+//     document.querySelectorAll(".tab__content").forEach(button =>{
+//         button.addEventListener("click", () =>{
+//             const sideBar= button.parentElement;
+//             const tabsContainer= sideBar.parentElement;
+//             const tabNumber=button.dataset.forTab;
+//             const tabToActivate=tabsContainer.querySelector('.tab__content[data-tab="${tabNumber}"]');
+            
+//             sideBar.querySelectorAll(".tabs__button").forEach(button =>{
+//                 button.classList.remove("tabs__button--active");
+//             });
+
+//             button.classList.add("tabs__button--active");
+//             tabToActivate.classList.add("tab__content--active");
+//         })
+//     })
+// }
+// document.addEventListener("DOMContentLoaded", () =>{
+//     setupTabs();
+// })
