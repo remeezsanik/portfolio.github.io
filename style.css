@@ -286,7 +286,7 @@ section{
     transform: translateX(-50%);
 }
 .about .title::after{
-    content: "who i am";
+    content: "Who I am";
     position:absolute;
     font-size: 20px;
     color: #9affe7d3;
@@ -346,7 +346,7 @@ section{
     color: #e6f1ff;
 }
 .skills .title::after{
-    content: "what i know";
+    content: "What I know";
     background:#0a192f;
     color: #9affe7d3;
 }
@@ -478,7 +478,7 @@ section{
     color:#e6f1ff;
 }
 .contact .title::after{
-    content:"get in touch";
+    content:"Get in touch";
     background:#0a192f;
     color: #9affe7d3;
 }
