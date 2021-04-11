@@ -40,12 +40,11 @@ html{
     width: 30px;
     cursor: pointer;
     padding-left:15px;
-    
 }
 #icon:hover {
     transform: scale(1.3);
 }
-/* Dark Mode Ends*/
+
  :root{
 
      --primary-color: #fff;
@@ -60,6 +59,7 @@ html{
      --navbar-color: #17171a;
      --footer-color: #08435f;
  }
+ /* Dark Mode Ends*/
 .scroll-up-btn.show{
     bottom: 30px;
     opacity: 1;
@@ -717,13 +717,13 @@ footer span a:hover{
         margin-right: 0;
         margin-left: auto;
         display:block;
-         
     }
 @media(max-width: 947px){
     .max-width{
         padding: 0 50px;
     }
     .menu-btn{
+        padding-right: 20px;
         padding-left: 20px;
         background: -webkit-linear-gradient(#03283dd3,#64ffda);
         -webkit-background-clip: text;
@@ -740,7 +740,7 @@ footer span a:hover{
         width: 100%;
         left: -100%;
         top: 0;
-        background: #111;
+        background-color:var(--primary-color);
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
@@ -751,7 +751,13 @@ footer span a:hover{
     .navbar .menu li{
         display: block;
     }
+    .navbar .menu:hover{
+        transform: scale(1.2);
+    }
     .navbar .menu li a{
+        /* border: 2px;
+        border: 1px solid #03283dd3;
+        border-radius: 4px; */
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
