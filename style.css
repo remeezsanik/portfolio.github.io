@@ -344,19 +344,18 @@ section{
     background-color: var(--primary-color);
 }
 .about .about-content .left img{
-    height: 400px;
-    width: 400px;
+    height: 100%;
+    width: 85%;
     object-fit: cover;
-    /* padding-right: 10px; */
 }
 .about .about-content img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .about .about-content{
     color: var(--footer-color);
     display: flex;
     flex-wrap: wrap;
-    align-items: right;
+    align-items: center;
     justify-content: space-between;
 }
 .about .about-content .left{
@@ -495,6 +494,10 @@ section{
 .work .work-content p{
     color: var(--secondary-color);
 }
+.work-content {
+    display: flex;
+    justify-content: space-between;
+}
 .work .title{
     color: var(--secondary-color);
 }
@@ -597,6 +600,7 @@ section{
 }
 .contact .contact-content .row i:hover{
     font-size: 25px;
+    color: var(--footer-color);
     transform: scale(1.2);
 }
 .contact .contact-content .info .head{
@@ -682,14 +686,10 @@ section{
     padding:0.25rem 1.75rem;
     line-height: 3;
 }
-.Whatsapp-link:hover{
-    color: var(--footer-color);
-}
-
 /* footer section begins */
 footer{
     background:#021e2b ;
-    padding: 20px 20px;
+    padding: 20px 20px; 
     color:#fff;
     text-align: center;
 }
@@ -747,7 +747,7 @@ footer span a:hover{
         z-index: 999;
     }
     .menu-btn i.active::before{
-        content: "\f00d";
+           content: "\f00d";
     }
     .navbar .menu{
         position: fixed;
@@ -771,9 +771,7 @@ footer span a:hover{
         transform: scale(1.2);
     }
     .navbar .menu li a{
-        /* border: 2px;
-        border: 1px solid #03283dd3;
-        border-radius: 4px; */
+        
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
@@ -798,34 +796,27 @@ footer span a:hover{
         margin-bottom: 35px;
     }
 }
-/*Media Resonsive part*/
+
 @media (max-width: 1300px) {
     .home .max-width{
         margin-left: 0px;
     }
+  
 }
 @media (max-width: 1104px) {
     .about .about-content .left img{
-        height: 350px;
-        width: 350px;
-        padding-right: 20px;
+        height: 200%;
+        width: 200%;   
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .work-content{
+        flex-direction: column;
     }
 }
 @media (max-width: 991px) {
-    .about .about-content{
-    
-        width: 50%;
-    }
-    .about .about-content .right{
-        width: 50%;
-        margin: 0px;
-    }
-}
-@media (max-width: 695px) {
-    .max-width
-    .about .about-content .left img{
-        height: 250px;
-        width: 250px;
+    .max-width{
         padding: 0 50px;
     }
 }
@@ -867,7 +858,7 @@ footer span a:hover{
     .contact .right form .name,
     .contact .right form .email{
         margin: 0;
-    }
+    }   
     .scroll-up-btn{
         right: 15px;
         bottom: 15px;
@@ -877,4 +868,5 @@ footer span a:hover{
         line-height: 30px;
         
     }
+}
 }
