@@ -165,7 +165,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .navbar.sticky #icon{
-    width: 30px; 
+    width: 31px; 
 }
 .navbar.sticky.logo a span:hover{
     color:#fff; 
