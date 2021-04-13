@@ -153,7 +153,6 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    /* color: #fff; */
     font-size: 35px;
     font-weight: 600;
     background: -webkit-linear-gradient(#03283dd3,#08435f,#64ffda);
@@ -164,7 +163,10 @@ section .title::after{
     color: #03283dd3;
     font-weight: bolder;
     transition: all 0.3s ease;
-} 
+}
+.navbar.sticky #icon{
+    width: 30px; 
+}
 .navbar.sticky.logo a span:hover{
     color:#fff; 
 } 
