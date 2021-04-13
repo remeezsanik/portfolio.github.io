@@ -192,7 +192,7 @@ section .title::after{
 }
 /* menu button styling */
 .menu-btn{
-   
+    
     font-size: 27px;
     cursor: pointer;
     display: none;
@@ -746,9 +746,9 @@ footer span a:hover{
     .menu-btn{
         padding-right: 20px;
         padding-left: 20px;
-        background: -webkit-linear-gradient(#03283dd3,#64ffda);
+        /* background:-webkit-linear-gradient(#03283dd3,#64ffda);   
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent; */
         display: block;
         z-index: 999;
     }
@@ -773,7 +773,6 @@ footer span a:hover{
         display: block;
     }
     .navbar .menu:hover{
-        
         transform: scale(1.2);
     }
     .navbar .menu li a{
