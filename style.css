@@ -744,8 +744,7 @@ footer span a:hover{
         padding: 0 50px;
     }
     .menu-btn{
-        padding-right: 20px;
-        padding-left: 20px;
+        padding: 15px;
         /* background:-webkit-linear-gradient(#03283dd3,#64ffda);   
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; */
