@@ -466,10 +466,10 @@ section{
     width:65%;
 }
 .skills .skills-content .right .python::before{
-    width:55%;
+    width:50%;
 }
 .skills .skills-content .right .css::before{
-    width:50%;
+    width:65%;
 }
 .skills .skills-content .right .mysql::before{
     width:50%;
@@ -571,7 +571,7 @@ section{
 }
 /* contact section styling */
 .contact .title{
-    color:var(--seconadry-color);
+    color:var(--secondary-color);
 }
 .contact .title::after{
     content:"Get in touch";
