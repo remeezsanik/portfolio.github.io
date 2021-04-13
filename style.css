@@ -37,7 +37,7 @@ html{
 }
 /* Dark Mode style*/
 #icon {
-    width: 32px;
+    width: 35px;
     cursor: pointer;
     padding-left:15px;
 }
@@ -153,6 +153,7 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
+    /* color: #fff; */
     font-size: 35px;
     font-weight: 600;
     background: -webkit-linear-gradient(#03283dd3,#08435f,#64ffda);
@@ -166,7 +167,7 @@ section .title::after{
 }
 .navbar.sticky #icon{
     width: 31px; 
-}
+} 
 .navbar.sticky.logo a span:hover{
     color:#fff; 
 } 
@@ -189,6 +190,7 @@ section .title::after{
 .navbar.sticky .menu li a:hover{
     color:var(--footer-color);
 }
+
 .navbar.sticky #icon:hover{
     color:var(--footer-color);
 }
@@ -199,7 +201,6 @@ section .title::after{
     cursor: pointer;
     display: none;
 }
-
 .home{
     display: flex;
     height: 100vh;
@@ -736,7 +737,7 @@ footer span a:hover{
         padding: 0 50px;
     }
     #icon{
-        width: 35px;
+        width: 32px;
         margin-right: 0;
         margin-left: auto;
         display:block;
@@ -747,6 +748,7 @@ footer span a:hover{
     }
     .menu-btn{
         padding: 15px;
+        /* padding-left: 20px; */
         /* background:-webkit-linear-gradient(#03283dd3,#64ffda);   
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; */
@@ -867,7 +869,7 @@ footer span a:hover{
     }   
     .scroll-up-btn{
         right: 15px;
-        bottom: 15px;
+        bottom: 100px;
         height: 35px;
         width: 35px;
         font-size: 20px;
