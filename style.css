@@ -326,7 +326,7 @@ section{
     margin-bottom: 60px;
     padding-bottom: 20px;
     text-align: center;
-    color:#021e2b;
+    color:var(--secondary-color);
 }
 
 .about .title::before{
