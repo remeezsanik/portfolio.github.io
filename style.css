@@ -63,8 +63,8 @@ html{
  }
  .dark-theme{
 
-     --primary-color: #0000000;
-     --secondary-color: #F5F5F5; 
+     --primary-color: #000106;
+     --secondary-color: #08435f; 
      --navbar-color: #17171a;
      --footer-color: rgb(189, 194, 221);
  }
