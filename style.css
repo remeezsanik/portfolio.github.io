@@ -811,7 +811,7 @@ footer span a:hover{
     }
     .home{
         background-image: url('https://images8.alphacoders.com/708/708164.jpg');
-        background-size: 50% 50%;
+        background-size: 100% 100%;
         background-repeat: no-repeat;
         /* background-attachment: fixed; */
     }
