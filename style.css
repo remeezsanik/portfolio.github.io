@@ -811,10 +811,10 @@ footer span a:hover{
     }
     .home{
         background-image: url('https://images8.alphacoders.com/708/708164.jpg');
-        background-position: center;
+       
         background-size: auto;
         background-repeat: no-repeat;
-        /* background-attachment: fixed; */
+        background-attachment: fixed;
     }
     .home .home-content .text-2{
         font-size: 70px;
