@@ -11,7 +11,7 @@ body{
     width:100%;
     min-height: 100%;
     background-color:var(--primary-color);
-    /* color:var(--texts-color); */
+    
 }
 
 html{
@@ -19,11 +19,11 @@ html{
 }
 .scroll-up-btn{
     position: fixed;
-    height:45px;
-    width:42px;
-    background:#08435f;
+    height:40px;
+    width:38px;
+    background:#754c26ee;
     right:30px;
-    bottom: 10px;
+    bottom: 25px;
     text-align: center;
     line-height: 45px;
     color:var(--primary-color);
@@ -57,16 +57,16 @@ html{
  :root{
 
      --primary-color: rgba(255, 255, 255, 0.911);
-     --secondary-color: #08435f;
-     --navbar-color: #2f6357;
+     --secondary-color: #8a5c36f1;
+     --navbar-color: #634c2fa1;
      --footer-color: rgb(189, 194, 221);
-     --home-color:rgb(189, 194, 221);
+     --home-color:rgb(109, 93, 78);
      --texts-color:#000;
  }
- .dark-theme{
+ .dark-theme{   
 
      --primary-color: #000106f3;
-     --secondary-color: #08435f; 
+     --secondary-color: #8a5c36f1; 
      --navbar-color: #17171a;
      --footer-color: rgb(189, 194, 221);
      --home-color:#000;
@@ -174,8 +174,7 @@ section .title::after{
     color: var(--footer-color); 
 } 
 .navbar .logo a span:hover{
-    
-    background: -webkit-linear-gradient(#032517d3,#1a4738,#66d1a4);
+    background: -webkit-linear-gradient(#251203d3,#7e4830,#d18466);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -191,7 +190,7 @@ section .title::after{
     margin-left: 25px;
     transition: color 0.3s ease;
 }
-.navbar.sticky .menu li a:{
+.navbar.sticky .menu li a{
     color:var(--texts-color);
 }
 .navbar .menu li a:hover{
@@ -199,7 +198,7 @@ section .title::after{
     transform: scale(1.2);
     font-size: 18px;
     font-weight: 700;
-    color:var(--primary-color);
+    color:var(--texts   -color);
 }
 .navbar.sticky .menu li a:hover{
     color:var(--texts-color);
@@ -217,8 +216,8 @@ section .title::after{
 .home{
     display: flex;
     height: 100vh;
-    background-image: url('https://initiate.alphacoders.com/images/841/cropped-1280-800-841697.jpg?9321');
-    opacity: 97%;
+    background-image: url('https://images8.alphacoders.com/708/708164.jpg');
+    opacity: 100%;
     background-size: cover;
     background-attachment: fixed;
     
@@ -294,7 +293,7 @@ h2.title{
 .home .home-content .text-2:hover{
     transform: scale(1.1);
     transition: 0.5s;
-    background: -webkit-linear-gradient(#032517d3,#1a4738,#66d1a4);
+    background: -webkit-linear-gradient(#251203d3,#7e4830,#d18466);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -321,7 +320,7 @@ h2.title{
 .home .home-content a:hover{
     transition: 0.5s;
     font-size: 20px;
-    background: -webkit-linear-gradient(#03283dd3,#64ffda);
+    background: -webkit-linear-gradient(#3d1a03d3,#ffaf64);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: var(--secondary-color);
@@ -417,7 +416,7 @@ section{
 .about .about-content .right a:hover{
     transition: 0.5s;
     font-size: 16px;
-    background: -webkit-linear-gradient(#03283dd3,#64ffda);
+    background: -webkit-linear-gradient(#3d1a03d3,#ffaf64);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: var(--secondary-color);
@@ -477,7 +476,7 @@ section{
     height:100%;
     left:0;
     top:0;
-    background-image: linear-gradient(to right,#03283dd3,#08435f,#64ffda);
+    background-image: linear-gradient(to right,#251203d3,#7e4830,#d18466);
 } 
 .skills .skills-content .right .excel::before{
     width:90%;
@@ -711,7 +710,7 @@ section{
     width: 100%;
     height: 100%;
     border: 1px solid #03283dd3;
-    background: -webkit-linear-gradient(#03283dd3,#08435f,#64ffda);
+    background: -webkit-linear-gradient(#251203d3,#7e4830,#d18466);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: var(--secondary-color);
@@ -811,9 +810,10 @@ footer span a:hover{
         font-size: 20px;
     }
     .home{
-        background-image: url('https://initiate.alphacoders.com/images/841/cropped-1280-800-841697.jpg?9321');
+        background-image: url('https://images8.alphacoders.com/708/708164.jpg');
         background-size: auto;
         background-repeat: no-repeat;
+        /* background-attachment: fixed; */
     }
     .home .home-content .text-2{
         font-size: 70px;
