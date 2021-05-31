@@ -217,7 +217,7 @@ section .title::after{
 .home{
     display: flex;
     height: 100vh;
-    background-image: url('../Images/background.jpg');
+    background-image: url('https://initiate.alphacoders.com/images/841/cropped-1280-800-841697.jpg?9321');
     opacity: 97%;
     background-size: cover;
     background-attachment: fixed;
