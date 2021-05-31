@@ -810,6 +810,11 @@ footer span a:hover{
         margin: 20px 0;
         font-size: 20px;
     }
+    .home{
+        background-image: url('https://initiate.alphacoders.com/images/841/cropped-1280-800-841697.jpg?9321');
+        background-size: cover;
+        background-attachment: fixed;
+    }
     .home .home-content .text-2{
         font-size: 70px;
     }
