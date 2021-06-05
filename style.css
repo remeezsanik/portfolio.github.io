@@ -814,7 +814,7 @@ footer span a:hover{
        
         background-size: auto;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+/*         background-attachment: fixed; */
     }
     .home .home-content .text-2{
         font-size: 70px;
